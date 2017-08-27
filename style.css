@@ -142,6 +142,22 @@ hr{
 }
 
 
+
+/*Body Flex Paragraphs*/
+
+.flex-container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-container p{
+    padding: 0 10px;
+}
+
+.flex-container p:nth-child(2){
+    font-size: 15%;
+}
+
 /*Animation*/
 
 #animated-images{
